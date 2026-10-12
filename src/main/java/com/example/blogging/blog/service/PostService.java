@@ -1,6 +1,5 @@
 package com.example.blogging.blog.service;
 
-import com.example.blogging.blog.entity.Post;
 import com.example.blogging.blog.payload.PostDto;
 import com.example.blogging.blog.payload.PostResponse;
 

@@ -1,7 +1,5 @@
 package com.example.blogging.blog.payload;
 
-import com.example.blogging.blog.entity.Category;
-import com.example.blogging.blog.entity.User;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;

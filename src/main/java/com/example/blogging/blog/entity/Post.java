@@ -1,17 +1,12 @@
 package com.example.blogging.blog.entity;
 
-import com.example.blogging.blog.payload.CommentDto;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.modelmapper.internal.bytebuddy.utility.dispatcher.JavaDispatcher;
-import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 @Entity

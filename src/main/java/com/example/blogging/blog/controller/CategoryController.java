@@ -1,6 +1,5 @@
 package com.example.blogging.blog.controller;
 
-import com.example.blogging.blog.entity.Category;
 import com.example.blogging.blog.payload.ApiResponse;
 import com.example.blogging.blog.payload.CategoryDto;
 import com.example.blogging.blog.service.CategoryService;
@@ -34,7 +33,7 @@ public class CategoryController {
     public ResponseEntity<ApiResponse> deleteCategory(@PathVariable Integer categoryId) {
         service.deleteCategory(categoryId);
         ApiResponse response = new ApiResponse(String.format("Category with id: %s deleted successfully", categoryId), true);
-        return new ResponseEntity<ApiResponse>(response, HttpStatus.OK);
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
     @GetMapping("/{categoryId}")
     public ResponseEntity<CategoryDto> getCategory(@PathVariable Integer categoryId) {
