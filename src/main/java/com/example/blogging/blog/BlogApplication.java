@@ -31,5 +31,6 @@ public class BlogApplication implements CommandLineRunner {
 		System.out.println("aa1c->"+passwordEncoder.encode("aa1c"));
 		System.out.println("passworda1->"+passwordEncoder.encode("passworda1"));
 		System.out.println("a1pwd5->"+passwordEncoder.encode("a1pwd5"));
+        System.out.println("changes to feature");
 	}
 }
